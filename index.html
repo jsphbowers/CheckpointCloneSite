@@ -9,6 +9,10 @@
     integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
@@ -37,47 +41,128 @@
   </style>
 </head>
 
-<body class="debug bg-dark text-light">
+<body class="debug bg-darkish text-light">
   <!-- SECTION Nav Bar and Hero Image -->
-  <header class="container-fluid sticky-top">
+  <header class="container-fluid sticky-top bg-dark">
     <nav class="row">
-      <div class="col-4 d-flex">
+      <div class="col-12 d-flex">
         <img class="logo py-2" src="jjhb-final.svg" alt="JJHB Media">
         <h1 class="title-font px-2">JJHB Media & Video Services</h1>
       </div>
     </nav>
-    <section class="row">
-      <div class="col-4">
-        <form action="">Form here</form>
-      </div>
-      <div class="col-4">
-        <div>Glass Card w Text</div>
-      </div>
-    </section>
   </header>
-
   <main class="container-fluid">
-    <section class="row">
-      <div class="col-5">About area</div>
-      <div class="col-5">Icons w stuff</div>
+    <!-- SECTION Form and Glass Card -->
+    <section class="row bg-image justify-content-between">
+      <div class="col-md-6 text-center">
+        <h3 class="pt-5 roboto transparent-text">Get in touch with us!</h3>
+        <form class="form-card p-5 m-5">
+          <h5>Contact Info:</h5>
+          <div class="m-1">
+            <label for="contact-info" class="form-label">Name</label>
+            <input type="password" class="form-control" id="contact-info">
+          </div>
+          <div class="m-1">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We will primarily contact you by email.</div>
+          </div>
+          <div class="m-1">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="email" class="form-control" id="phone" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We may follow up with a phone call.</div>
+          </div>
+          <div class="m-1 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I agree to receive contact from JJHB media and
+              associated affiliates.</label>
+          </div>
+          <button type="submit" class="mt-2 btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-6 justify-center align-items-end pt-5 mt-5">
+        <div class="glass-card p-2 rounded shadow mr-5">
+          <h2 class="playfair">Joseph Bowers</h2>
+          <p class="roboto">I am a striving entrepenuer who is looking to help people with my skills in video editing,
+            shooting and
+            website building.</p>
+        </div>
+      </div>
     </section>
+
+    <!-- SECTION Burst Card Area -->
     <section class="row">
-      <div class="col-4">Photo/video later?</div>
-      <div class="col-8">Text and button</div>
+      <div class="col-md-6 p-5">
+        <h2 class="playfair">Lorem, ipsum.</h2>
+        <h4 class="playfair">Lorem ipsum dolor sit amet.</h4>
+        <p class="roboto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem cumque non aperiam, aut,
+          voluptatum repellendus
+          at nesciunt repellat, assumenda soluta error quidem! Itaque, magnam totam autem veniam repellat suscipit
+          sapiente.</p>
+      </div>
+      <div class="col-md-6 position-relative">
+        <div class="m-4 p-4 bleed-card">
+
+          <p><img class="icon-salmon" src="camera.svg" alt=" "> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Blanditiis beatae
+            laboriosam reiciendis?</p>
+
+          <p><img class="icon-salmon" src="baseline-people-outline.svg" alt=""> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+            Blanditiis beatae laboriosam reiciendis?</p>
+
+          <p><img class="icon-salmon" src="laptop-mac-outline.svg" alt=" "> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+            Blanditiis beatae laboriosam reiciendis?</p>
+
+          <p><img class="icon-salmon" src="video-camera-back.svg" alt=""> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+            Blanditiis beatae laboriosam reiciendis?</p>
+
+          <p><img class="icon-salmon" src="stopwatch-check-outline.svg" alt=" "> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+            Blanditiis beatae laboriosam reiciendis?</p>
+        </div>
+      </div>
     </section>
+    <!-- SECTION Camera photo and paragraphs -->
     <section class="row">
-      <div class="col-4">Card</div>
-      <div class="col-4">Big Card</div>
-      <div class="col-4">Card</div>
+      <div class="col-md-4 p-4">
+        <img class="tripod"
+          src="https://images.unsplash.com/photo-1612548403247-aa2873e9422d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Q2FtZXJhJTIwb24lMjB0cmlwb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          alt="Camera on tripod">
+      </div>
+      <div class="col-md-8 p-5">
+        <div class="card-center">
+          <h3><img class="bigger-logo" src="jjhb-final.svg" alt="JJHB media"> Lorem ipsum dolor sit amet.</h3>
+          <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque laudantium velit ipsa?</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate possimus eos, voluptas expedita illum
+            ducimus vel nostrum maxime optio consequuntur numquam voluptatum, fuga natus fugiat temporibus cum quam eum
+            nisi?</p>
+          <button class="btn">Contact</button>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 3 Cards -->
+    <section class="row px-4">
+      <div class="col-md-4">Card</div>
+      <div class="col-md-4">Big Card</div>
+      <div class="col-md-4">Card</div>
     </section>
   </main>
 
   <footer class="container-fluid">
     <section class="row">
-      <div class="col-12">Contact Info</div>
+      <div class="col-12">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus autem veniam!</p>
+      </div>
     </section>
-    <section class="row">
-      <div class="col-8">Social media links</div>
+    <section class="row salmon justify-content-center">
+      <div class="col-8 text-center">
+        <img src="linkedin.svg" alt="Linkedin logo"><img src="youtube.svg" alt="Youtube Logo"><img
+          src="baseline-facebook.svg" alt="Facebook Logo"><img src="instagram.svg" alt="Instagram logo">
+      </div>
     </section>
   </footer>
 

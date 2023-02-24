@@ -1,9 +1,100 @@
+/* Classes for objects */
+.bg-darkish {
+  background-color: #0F1A20;
+}
+
+.salmon {
+  background-color: #E2856E;
+}
+
+.icon-salmon {
+  background-color: #E2856E;
+  border-radius: 50%;
+}
+
+.khaki {
+  color: #ADA296
+}
+
+.cadet-grey {
+  color: #88A2AA
+}
+
+.bleed-card {
+  border-radius: 5%;
+  background-color: #88A2AA;
+  position: absolute;
+}
+
+
+.form-card {
+  background-color: #F42C04;
+  border-radius: 5%;
+}
+
+.glass-card {
+  background-color: #f42c0448;
+  border-left: 4px solid #F42C04;
+}
+
+.card-center {
+  padding-top: 23vh;
+}
+
 .title-font {
   font-family: 'Tilt Prism', cursive;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {
   height: 2vh;
   width: auto;
   border-radius: 10%;
+}
+
+.bigger-logo {
+  height: 5vh;
+  width: auto;
+  border-radius: 10%;
+}
+
+.bg-image {
+  background-image: url("https://images.unsplash.com/photo-1526063803516-3fd204f18b75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHZpZGVvJTIwZXF1aXBtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+}
+
+.tripod {
+  height: 38em;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10%;
+}
+
+
+
+/* UTILITY CLASSES */
+
+.transparent-text {
+  color: rgba(245, 245, 245, 0.484);
+}
+
+@media(max-width:768px) {
+  .glass-card {
+    display: none;
+  }
+
+  .bleed-card {
+    border-radius: 5%;
+    background-color: #88A2AA;
+    position: relative;
+  }
 }
