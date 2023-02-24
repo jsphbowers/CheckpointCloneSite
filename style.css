@@ -1,0 +1,9 @@
+.title-font {
+  font-family: 'Tilt Prism', cursive;
+}
+
+.logo {
+  height: 2vh;
+  width: auto;
+  border-radius: 10%;
+}
