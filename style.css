@@ -41,6 +41,16 @@
   padding-top: 23vh;
 }
 
+.big-card {
+  height: 20em;
+  width: 23em;
+}
+
+.small-card {
+  height: 15em;
+  width: 18em;
+}
+
 .title-font {
   font-family: 'Tilt Prism', cursive;
 }
@@ -54,7 +64,7 @@
 }
 
 .logo {
-  height: 2vh;
+  height: 7vh;
   width: auto;
   border-radius: 10%;
 }
@@ -65,6 +75,11 @@
   border-radius: 10%;
 }
 
+.stars {
+  color: #F42C04;
+  font-size: 2rem;
+}
+
 .bg-image {
   background-image: url("https://images.unsplash.com/photo-1526063803516-3fd204f18b75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHZpZGVvJTIwZXF1aXBtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   background-position: center;
@@ -72,11 +87,15 @@
 }
 
 .tripod {
-  height: 38em;
+  height: 35em;
   width: auto;
   object-fit: cover;
   object-position: center;
   border-radius: 10%;
+}
+
+.tripod-padding {
+  padding-left: 10vh;
 }
 
 

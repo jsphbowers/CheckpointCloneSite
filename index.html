@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
     integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -127,7 +128,7 @@
     </section>
     <!-- SECTION Camera photo and paragraphs -->
     <section class="row">
-      <div class="col-md-4 p-4">
+      <div class="col-md-4 tripod-padding">
         <img class="tripod"
           src="https://images.unsplash.com/photo-1612548403247-aa2873e9422d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Q2FtZXJhJTIwb24lMjB0cmlwb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
           alt="Camera on tripod">
@@ -144,16 +145,38 @@
       </div>
     </section>
     <!-- SECTION 3 Cards -->
-    <section class="row px-4">
-      <div class="col-md-4">Card</div>
-      <div class="col-md-4">Big Card</div>
-      <div class="col-md-4">Card</div>
+    <section class="row px-4 justify-content-center d-flex align-items-center">
+      <div class="order-2 small-card col-md-3 m-2">
+        <div>
+          <p class="playfair">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam facilis cumque qui?</p>
+          <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quasi. Deleniti, vitae.</p>
+        </div>
+      </div>
+      <div class="order-1 big-card col-md-4 mx-4 my-2">
+        <div>
+          <div class="text-center">
+            <span><i class="stars mdi mdi-star-circle"></i></span>
+            <span><i class="stars mdi mdi-star-circle"></i></span>
+            <span><i class="stars mdi mdi-star-circle"></i></span>
+          </div>
+          <p class="playfair">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rem error aut.</p>
+          <p class="roboto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum nulla doloremque natus.</p>
+        </div>
+      </div>
+      <div class="order-3 small-card col-md-3 m-2">
+        <div>
+          <p class="playfair">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus error possimus
+            culpa.</p>
+          <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis consequatur ipsum.
+          </p>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="container-fluid">
     <section class="row">
-      <div class="col-12">
+      <div class="col-12 p-4">
         <h2>Lorem ipsum dolor sit.</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus autem veniam!</p>
       </div>
