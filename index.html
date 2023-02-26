@@ -42,7 +42,7 @@
   </style>
 </head>
 
-<body class=" bg-darkish text-light">
+<body class="debug bg-darkish text-light">
   <!-- SECTION Nav Bar and Hero Image -->
   <header class="container-fluid sticky-top bg-dark">
     <nav class="row">
@@ -58,15 +58,16 @@
       <div class="col-md-6 text-center">
         <h3 class="pt-5 roboto transparent-text">Get in touch with us!</h3>
         <form class="form-card p-5 m-5">
-          <h5>Contact Info:</h5>
+          <h5 class="playfair">Contact Info:</h5>
           <div class="m-1">
             <label for="contact-info" class="form-label">Name</label>
             <input type="password" class="form-control" id="contact-info">
+            <div></div>
           </div>
           <div class="m-1">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We will primarily contact you by email.</div>
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="phone" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We may follow up with a phone call.</div>
           </div>
           <div class="m-1">
             <label for="phone" class="form-label">Phone</label>
@@ -92,8 +93,8 @@
     </section>
 
     <!-- SECTION Burst Card Area -->
-    <section class="row">
-      <div class="col-md-6 p-5">
+    <section class="bg-darkish row">
+      <div class="order-2 order-md-1 col-md-6 p-5">
         <h2 class="playfair">Lorem, ipsum.</h2>
         <h4 class="playfair">Lorem ipsum dolor sit amet.</h4>
         <p class="roboto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem cumque non aperiam, aut,
@@ -101,7 +102,7 @@
           at nesciunt repellat, assumenda soluta error quidem! Itaque, magnam totam autem veniam repellat suscipit
           sapiente.</p>
       </div>
-      <div class="col-md-6 position-relative">
+      <div class="order-1 order-md-2 col-md-6 position-relative">
         <div class="m-4 p-4 bleed-card">
 
           <p><img class="icon-salmon" src="camera.svg" alt=" "> Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -127,25 +128,29 @@
       </div>
     </section>
     <!-- SECTION Camera photo and paragraphs -->
-    <section class="row">
-      <div class="col-md-4 tripod-padding">
+    <section class="bg-khaki row">
+      <div class="col-md-4 tripod-padding py-2">
         <img class="tripod"
           src="https://images.unsplash.com/photo-1612548403247-aa2873e9422d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Q2FtZXJhJTIwb24lMjB0cmlwb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
           alt="Camera on tripod">
       </div>
       <div class="col-md-8 p-5">
-        <div class="card-center">
-          <h3><img class="bigger-logo" src="jjhb-final.svg" alt="JJHB media"> Lorem ipsum dolor sit amet.</h3>
-          <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque laudantium velit ipsa?</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate possimus eos, voluptas expedita illum
+        <div class="card-center text-end">
+          <h3 class="text-start"><img class="bigger-logo" src="jjhb-final.svg" alt="JJHB media"> Lorem ipsum dolor sit
+            amet.
+          </h3>
+          <h3 class="text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque laudantium velit ipsa?
+          </h3>
+          <p class="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate possimus eos,
+            voluptas expedita illum
             ducimus vel nostrum maxime optio consequuntur numquam voluptatum, fuga natus fugiat temporibus cum quam eum
             nisi?</p>
-          <button class="btn">Contact</button>
+          <button class="btn bg-darkish text-light border-light">Contact</button>
         </div>
       </div>
     </section>
     <!-- SECTION 3 Cards -->
-    <section class="row px-4 justify-content-center d-flex align-items-center">
+    <section class="row bg-darkish px-4 justify-content-center d-flex align-items-center">
       <div class="small-card col-md-3 order-2 order-md-1 m-2">
         <div>
           <p class="playfair">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam facilis cumque qui?</p>
@@ -175,13 +180,13 @@
   </main>
 
   <footer class="container-fluid">
-    <section class="row">
+    <section class="row bg-cadet-grey">
       <div class="col-12 p-4">
         <h2>Lorem ipsum dolor sit.</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus autem veniam!</p>
       </div>
     </section>
-    <section class="row salmon justify-content-center">
+    <section class="row p-2 salmon justify-content-center">
       <div class="col-8 text-center">
         <img src="linkedin.svg" alt="Linkedin logo"><img src="youtube.svg" alt="Youtube Logo"><img
           src="baseline-facebook.svg" alt="Facebook Logo"><img src="instagram.svg" alt="Instagram logo">
