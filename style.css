@@ -13,7 +13,7 @@
 }
 
 .bg-khaki {
-  background-color: #ADA296;
+  background-color: #0A2239;
 }
 
 .bg-cadet-grey {
@@ -24,6 +24,7 @@
   border-radius: 5%;
   background-color: #88A2AA;
   position: absolute;
+  box-shadow: 4px 4px 2px #E2856E;
 }
 
 
@@ -44,11 +45,13 @@
 .big-card {
   height: 20em;
   width: 23em;
+  box-shadow: 4px 4px 2px #E2856E
 }
 
 .small-card {
   height: 15em;
   width: 18em;
+  box-shadow: 4px 4px 2px #E2856E
 }
 
 .title-font {
@@ -66,7 +69,7 @@
 .logo {
   height: 7vh;
   width: auto;
-  border-radius: 10%;
+  border-radius: 15%;
 }
 
 .bigger-logo {
@@ -115,5 +118,10 @@
     border-radius: 5%;
     background-color: #88A2AA;
     position: relative;
+  }
+
+  .tripod-padding {
+    padding-left: 4vh;
+    padding-right: 1vh;
   }
 }
