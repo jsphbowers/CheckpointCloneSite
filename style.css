@@ -125,3 +125,18 @@
     padding-right: 1vh;
   }
 }
+
+@keyframes button-color {
+  from {
+    background-color: #0A2239
+  }
+
+  to {
+    background-color: #E2856E;
+  }
+
+  button {
+    animation-name: button-color;
+    animation-duration: 4s;
+  }
+}
